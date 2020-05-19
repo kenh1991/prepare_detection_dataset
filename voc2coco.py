@@ -111,7 +111,7 @@ if __name__ == '__main__':
     # pre_define_categories = {'a1': 1, 'a3': 2, 'a6': 3, 'a9': 4, "a10": 5}
     only_care_pre_define_categories = True  # or False
     
-    voc_path1 = '/data/kenanhai/work/data01/VOC/*'
+    voc_path1 = './VOC/*'
     voc_path = glob.glob(voc_path1)
     for item in voc_path:
         name = item.split('/')[-1]
